@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: payments-service
+  cloud:
+    config:
+      uri: http://localhost:8090
+      username: nttdata
+      password: nttd4t4
+  data:
+    mongodb:
+      uri: mongodb+srv://admin11:admin11@yker11.s79yf.mongodb.net/db_bank?retryWrites=true&w=majority
+
+application:
+  external:
+    comments:
+      url: http://localhost:8095
+      path: /coibank
